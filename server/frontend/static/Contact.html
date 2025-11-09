@@ -1,0 +1,95 @@
+<html>
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+
+    <style>
+        .contact-container {
+            padding: 50px 20px; /* Add padding for spacing */
+            text-align: center;   /* Center all content */
+            font-family: Arial, sans-serif; /* Set a clean font */
+            background-color: #f9f9f9; /* Light grey background for the section */
+        }
+        
+        .contact-box {
+            max-width: 600px;     /* Limit the width for readability */
+            margin: 20px auto;    /* Center the box horizontally */
+            padding: 30px;        /* Add padding inside the box */
+            border: 1px solid #ddd; /* Light border */
+            border-radius: 8px;     /* Rounded corners */
+            background-color: #ffffff; /* White background for the box */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* Subtle shadow */
+            text-align: left;     /* Align text to the left inside the box */
+        }
+
+        .contact-box h2 {
+            color: #333;
+            font-weight: bold;
+            text-align: center; /* Center the title */
+            margin-bottom: 25px;
+        }
+
+        .contact-box p {
+            font-size: 1.1em; /* Slightly larger text */
+            color: #555;     /* Dark grey color for text */
+            line-height: 1.6; /* Add space between lines */
+            margin-bottom: 15px; /* Space between paragraphs */
+        }
+
+        .contact-box strong {
+            color: darkturquoise; /* Match the navbar color */
+            min-width: 100px;   /* Align the text after the bold tag */
+            display: inline-block; /* Allows min-width to work */
+        }
+
+        
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<div>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+        <div class="container-fluid">
+          <h2 style="padding-right: 5%;">Dealerships</h2>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+</div>
+<div class="contact-container">
+    <div class="contact-box">
+        <h2>Get in Touch</h2>
+        <img class="dealership" src="/static/dealership.jpg" alt="dealership">
+        <p>
+            We'd love to hear from you! Whether you have a question about a vehicle,
+            financing, or our services, our team is ready to help.
+        </p>
+        
+        <p><strong>Phone:</strong> (123) 456-7890</p>
+        <p><strong>Email:</strong> info@bestdealership.com</p>
+        <p><strong>Address:</strong> 123 Auto Lane, Car City, USA 12345</p>
+        <p><strong>Hours:</strong> Mon - Fri: 9:00 AM - 7:00 PM</p>
+    </div>
+</div>
+
+</html>
